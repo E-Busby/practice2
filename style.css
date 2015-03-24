@@ -1,9 +1,26 @@
+/********** DEFAULT **********/
 
+p {
+	margin: 0px 0 10px 0;
+}
+
+h1 {
+	color: #fff;
+	font-size: 60px;
+	margin: 5px 0 0 20px;
+	padding: 10px 0 0 20px;
+}
+
+h2 {
+	color: #fff;
+	margin: 0 0 0 80px;
+	padding-left: 10px;
+	display: inline;
+}
 
 /********** HEADER **********/
 
 header {
-	
 	background: #009933;
 	border-bottom: #003300 solid;
 	border-width: 5px;
@@ -12,206 +29,22 @@ header {
 	width: 100%;
 }
 
-
-h1 {
-	color: #fff;
-	font-family: "Chewy", sans-serif;
-	font-size: 60px;
-	margin: 5px 0 0 20px;
-	padding: 10px 0 0 20px;
-	
-	
-	
-}
-
-h2 {
-	color: #fff;
-	margin: 0 0 0 80px;
-	padding-left: 10px;
-	display: inline;
-	
-	
-}
-
-
-
-
-
-
-
-
-
-/********** BODY **********/
-
-
-body {
-	margin-top: -5px;
-}
-
-
-
-p {
-	margin: 0px;
-	padding: 10px;
-}
-
-.coming-soon {
-	font-size: 100px;
-	text-align: center;
-	margin-top: 100px;
-}
-
-
-/********** CONTACT INFO **********/
-
-#primary {
-	float: left;
-	width: 30%;
-	margin: 50px 0 0 17%;
-	
-	
-	
-}
-
-#secondary {
-	float: right;
-	width: 40%;
-	margin: 70px 5% 5% 5%;
-
-
-
-}
-
-
-
-
-
-.contact-info {
-	list-style: none;
-	text-decoration: none;
-	color: red;
-}
-
-
-
-.phone {
-	background-image: url("phone.png");
-	display: block;
-	background-size: 22px 22px;
-	background-repeat: no-repeat;
-	margin: 40px 0 10px -40px;
-	padding-left: 35px;
-	
-	
-}
-
-.email {
-	background-image: url("mail.png");
-	display: inline-block; 
-	background-size: 25px 25px;
-	background-repeat: no-repeat;
-	margin: 10px 0 10px -40px;
-	padding-left: 35px;
-	
-}
-
-
-.skype {
-	background-image: url("skype.png");
-	display: block;
-	background-size: 16px 15px;
-	background-repeat: no-repeat;
-	margin: 10px 0 10px -35px;
-	padding-left: 30px;
-
-}
-
-
-
-/********** ABOUT ME **********/
-
-.profile-pic {
-	display: block;
-	border-radius: 50%;
-	max-width: 225px;
-	max-height: 225px;
-	margin: 8% 0 10px 25%;
-}
-
-
-
-
-#about-me {
-	float: right;
-	max-width: 40%;
-	margin: 10% 12% 10% 5%;
-	
-}
-
-
-
-
-
-/********** FOOTER **********/
-
-
-footer {
-	text-align: center;
-	clear: both;
-	padding-top: 50px;
-}
-
-.copy {
-	color: lightgrey;
-	font-size: 15px;
-}
-
-
-
-
-
-/************************************
-NAVIGATION
-************************************/
+/***** NAVIGATION *****/
 
 a {
 	text-decoration: none;
 	color: #009933;
 }
 
-
-
 nav a, nav a:visited {
 	color: #fff;
 }
-
 
 nav a.selected, nav a:hover {
 	color: #009933;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/********** BUTTONS **********/
-
 .ellipse {
-	
 	height: 25px;
 	width: 100px;
 	border-radius: 50%;
@@ -223,3 +56,86 @@ nav a.selected, nav a:hover {
 	float: right;
 }
 
+/****** GENERAL ******/
+
+.coming-soon {
+	font-size: 100px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+/********** CONTACT INFO **********/
+
+#primary {
+	float: left;
+	width: 30%;
+	margin: 50px 0 0 17%;
+}
+
+#secondary {
+	float: right;
+	width: 40%;
+	margin: 70px 5% 5% 5%;
+}
+
+.contact-info {
+	list-style: none;
+	text-decoration: none;
+	color: red;
+}
+
+.phone {
+	background-image: url("phone.png");
+	display: block;
+	background-size: 22px 22px;
+	background-repeat: no-repeat;
+	margin: 40px 0 10px -40px;
+	padding-left: 35px;
+}
+
+.email {
+	background-image: url("mail.png");
+	display: inline-block;
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	margin: 10px 0 10px -40px;
+	padding-left: 35px;
+}
+
+.skype {
+	background-image: url("skype.png");
+	display: block;
+	background-size: 16px 15px;
+	background-repeat: no-repeat;
+	margin: 10px 0 10px -35px;
+	padding-left: 30px;
+}
+
+/********** ABOUT ME **********/
+
+.profile-pic {
+	display: block;
+	border-radius: 50%;
+	max-width: 225px;
+	max-height: 225px;
+	margin: 8% 0 10px 25%;
+}
+
+#about-me {
+	float: right;
+	max-width: 40%;
+	margin: 10% 12% 10% 5%;
+}
+
+/********** FOOTER **********/
+
+footer {
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+}
+
+.copy {
+	color: lightgrey;
+	font-size: 15px;
+}
